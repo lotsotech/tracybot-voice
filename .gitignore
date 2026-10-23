@@ -1,0 +1,17 @@
+# Virtualenvs (created by setup.sh / start_voice.sh)
+.venv/
+voice_venv/
+simple_venv/
+
+# Downloaded/compiled model deps (rebuildable via setup.sh)
+whisper.cpp/
+piper_models/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local env/secrets
+.env
+*.env
+speaker_embeddings.json

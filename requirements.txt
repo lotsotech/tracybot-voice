@@ -1,0 +1,21 @@
+# Vocode + Clawdbot Voice Integration Requirements
+
+# Core voice framework
+vocode
+
+# Text-to-Speech (local, free) - Python 3.12 compatible
+piper-tts
+
+# Speech-to-Text (handled by whisper.cpp compilation)
+# Will be compiled during setup
+
+# HTTP client for Clawdbot API
+httpx
+
+# Optional: Better local LLM support
+llama-cpp-python
+
+# Audio processing dependencies (usually auto-installed)
+sounddevice
+soundfile
+numpy

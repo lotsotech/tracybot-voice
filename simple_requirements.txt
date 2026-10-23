@@ -1,0 +1,5 @@
+# Minimal Voice Chat Requirements
+fastapi
+uvicorn
+httpx
+python-multipart
